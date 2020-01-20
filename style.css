@@ -1,0 +1,32 @@
+body{
+	margin:0px;
+}
+.container{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+
+}
+img{
+	width:400px;
+	height:300px;
+	margin:10px;
+	padding:0px;
+	transition: all 0.75s;
+
+}
+img:hover{
+   transform:scale(1.1);
+}
+h1{
+
+font-family: 'Source Serif Pro', serif;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width:400px;
+	text-align: center;
+	box-shadow: 10px 10px 10px lightgrey;
+	margin-top:10px;
+
+}
